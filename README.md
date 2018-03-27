@@ -1,2 +1,3 @@
 # kerryrodden.github.io
-GitHub Pages
+Skeleton portfolio site for GitHub Pages.
+Uses icons from [Simple Icons](https://simpleicons.org/).
