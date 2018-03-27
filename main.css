@@ -1,0 +1,130 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+header, footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+hr {
+  border-top: 3px solid #adc4e6;
+  height: 0;
+  margin-bottom: 0;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+  margin-top: 100px;
+  margin-left: -8px;
+  height: 40px;
+}
+
+p {
+  line-height: 1.3em;
+}
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.logo img {
+  width: 75px;
+  height: 75px;
+}
+
+.description {
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.description h1 {
+  font-size: 1.75em;
+  font-weight: 300;
+  margin: 10px 0 0 0;
+}
+
+.subheading {
+  margin: 6px 0 10px 0;
+}
+
+.hero {
+  background: no-repeat top/cover url("img/background.svg") #eee;
+  width: 100%;
+  height: 380px;
+}
+
+.featured {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.projects {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  margin: auto;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.project h3 {
+  text-transform: uppercase;
+}
+
+.project img {
+  width: 400px;
+  max-width: 100%;
+}
+
+.social img {
+  width: 32px;
+  padding: 8px;
+}
+
+.email {
+  margin: 16px 8px;
+}
+
+@media screen and (min-width: 410px) {
+  header {
+    flex-direction: row;
+  }
+  .description h1 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  footer {
+    flex-direction: row;
+  }
+  .description h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .project {
+    margin-bottom: 0;
+    max-width: 290px;
+  }
+  .project img {
+    width: 250px;
+  }
+}
